@@ -2,8 +2,8 @@
 
 # Create 2 users
 
-ashley = User.create(name: "Ashley", email: "ashley@ashley.com", password_digest: "password")
-anibal = User.create(name: "Anibal", email: "anibal@anibal.com", password_digest: "password")
+ashley = User.create(name: "Ashley", email: "ashley@ashley.com", password: "password")
+anibal = User.create(name: "Anibal", email: "anibal@anibal.com", password: "password")
 
 # Create some option entries
 
